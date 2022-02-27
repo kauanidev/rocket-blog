@@ -1,0 +1,89 @@
+.header-container{
+    background: #290742;
+    padding: 68px 135px;
+    border-bottom: 6px solid #4FFF4B;
+}
+.header-container header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.header-container header nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.header-container header nav a{
+    color: #fff;
+    font-size: 18px;
+}
+.header-container header nav a.active{
+    font-weight: 700;
+}
+.header-container header nav a.active::before{
+    content: "";
+    width: 2px;
+    height: 17px;
+    background-color: #4FFF4B;
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: baseline;
+}
+.header-container .search{
+    display: flex;
+}
+.header-container .search input{
+    height: 44px;
+    padding: 0 24px;
+    background: #170027;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px 0 0 20px;
+}
+.header-container .search input:focus{
+    outline: none;
+}
+.header-container .search input::placeholder{
+    color: #fff;
+}
+.header-container .search button{
+    background: #9E6DC2;
+    border: none;
+    width: 70px;
+    height: 44px;
+    border-radius: 0 20px 20px 0;
+}
+.underheader{
+    display: flex;
+    justify-content: space-between;
+}
+.underheader > img{
+    width: 570px;
+    object-fit: cover;
+}
+.underheader div{
+    max-width: 500px;
+}
+.underheader div h1{
+    color: #9E6DC2;
+    font-size: 36px;
+    font-family: "Poppins";
+}
+.underheader div p{
+    color: #FBF6FF;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 24px 0;
+}
+.underheader div a{
+    color: #9E6DC2;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
