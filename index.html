@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +9,93 @@
     <link href="./styles/global.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <section class="header-container">
-        <header>
-            <img src="./imgs/logo.svg" alt="logo">
-            <nav>
-                <a class="active" href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Categorias</a>
-                <a href="#">Contato</a>
-            </nav>
-            <div class="search">
-                <input type="text" placeholder="Buscar">
-                <button>
-                    <img src="./imgs/search.svg" alt="buscar">
-                </button>
-            </div>
-        </header>
-        <section class="underheader">
-            <div>
-                <h1>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique placerat hac. </p>
-                <a href="#">
-                    Veja mais
-                    <img src="./imgs/arrow-right.svg" alt="veja mais">
-                </a>
-            </div>
-            <img src="./imgs/featured-image.png" alt="imagem mostrando códigos aleatórios">
-        </section>
+
+    <section class="header-bg">
+        <div class="header-container">
+            <header>
+                <img src="./imgs/logo.svg" alt="logo">
+                <nav>
+                    <a class="active" href="#">Home</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Categorias</a>
+                    <a href="#">Contato</a>
+                </nav>
+                <div class="search">
+                    <input type="text" placeholder="Buscar">
+                    <button>
+                        <img src="./imgs/search.svg" alt="buscar">
+                    </button>
+                </div>
+            </header>
+
+            <section class="underheader">
+                <div>
+                    <h1>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique placerat hac. </p>
+                    <a href="#">
+                        Veja mais
+                        <img src="./imgs/arrow-right.svg" alt="veja mais">
+                    </a>
+                </div>
+                <img src="./imgs/featured-image.png" alt="imagem mostrando códigos aleatórios">
+            </section>
+
+        </div>
     </section>
+
+
+    <section class="posts-container">
+        <div class="top-posts">
+            <div class="complete-post">
+                <img src="./imgs/post-1.png" alt="notebook aleatório em cima de uma mesa">
+                <p class="dates">Fevereiro 28, 2022</p>
+                <a href="#" class="title">Começando no ReactJS em 2022</a>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.</p>
+            </div>
+            <section class="right-posts">
+                <div class="simple-post">
+                    <p class="dates">Fevereiro 28, 2022</p>
+                    <a href="#" class="title">Conheça as principais técnicas para conseguir uma vaga internacional em programação</a>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique.</p>
+                </div>
+                <div class="simple-post">
+                    <p class="dates">Fevereiro 28, 2022</p>
+                    <a href="#" class="title">Veja a evolução do Front-end na prática</a>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque.</p>
+                </div>
+            </section>
+        </div>
+        <h1 class="more">Veja mais</h1>
+        <div class="bottom-posts">
+            <div class="post">
+                <img src="./imgs/post-2.png" alt="homem em um evento tecnológico usando o notebook">
+                <p class="dates">Fevereiro 28, 2022</p>
+                <a href="#" class="title">10 dicas para conseguir a vaga desejada</a>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique.
+                </p>
+            </div>
+            <div class="post">
+                <img src="./imgs/post-3.png" alt="códigos aleatórios em uma tela de computador">
+                <p class="dates">Fevereiro 28, 2022</p>
+                <a href="#" class="title">Deixe seu código mais semântico com essas dicas</a>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique.
+                </p>
+            </div>
+            <div class="post">
+                <img src="./imgs/post-4.png" alt="celular com um reflexo de luz atrás">
+                <p class="dates">Fevereiro 28, 2022</p>
+                <a href="#" class="title">Use essas dicas nas suas aplicações mobile</a>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="https://github.com/kauanidev" target="_blank">Feito com ❤ por kauanidev</a>
+    </footer>
 </body>
 </html>

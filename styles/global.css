@@ -1,6 +1,8 @@
 @import "header.css";
+@import "posts.css";
 body{
-    background: #FBF6FF;
+    background-color: #FBF6FF;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
 }
 * {
     font-family: 'Roboto', sans-serif;

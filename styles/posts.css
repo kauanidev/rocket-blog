@@ -1,0 +1,74 @@
+.posts-container{
+    max-width: 1171px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.posts-container .top-posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 130px;
+}
+.complete-post{
+    display: flex;
+    flex-direction: column;
+}
+.dates{
+    font-size: 12px;
+    width: 100%;
+}
+.paragraph{
+    font-size: 16px;
+    width: 100%;
+}
+.title{
+    display: block;
+    margin: 14px 0;
+    font-size: 24px;
+    color: #290742;
+    line-height: 30px;
+    font-weight: 900;
+    width: 100%;
+}
+.right-posts .simple-post + .simple-post{
+    border-top: 3px solid #F2E7FA;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+.more{
+    margin: 50px auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #290742;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    display: inline-block;
+    color: #FBF6FF;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.bottom-posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.post img{
+    width: 100%;
+}
+footer{
+    background-color: #290742;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+footer a{
+    color: #9E6DC2;
+    transition: 0.5s;
+}
+footer a:hover{
+    color: white;
+}
