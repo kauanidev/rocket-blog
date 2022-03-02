@@ -17,7 +17,12 @@
 &nbsp;
 
 ### 💜 Link para o projeto online
-* [RocketBlog](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e/)
+* [RocketBlog](https://kauanidev.github.io/rocket-blog/)
+
+&nbsp;
+
+### 💜 Link para o desafio
+* [Notion desafio discover RocketSeat](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e/)
 
 &nbsp;
 
